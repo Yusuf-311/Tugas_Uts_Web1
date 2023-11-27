@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="container">
+            <a class="navbar-brand" href="#"> Bootstrap </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.html">Data Mahasiswa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container border p-0">
+      <div class="bg-primary p-5">
+        <p class="bi bi-house-door text-light">> Tabel Data Mahasiswa</p>
+        <h1 class="text-light">Data Mahasiswa</h1>
+      </div>
+      <table id="formDataTable" class="table border">
+        <thead class="">
+          <tr class="">
+            <th scope="col">No</th>
+            <th scope="col">Nama</th>
+            <th scope="col">Nim</th>
+            <th scope="col">Jenis Kelamin</th>
+            <th scope="col">Tempat, Tanggal Lahir</th>
+            <th scope="col">Agama</th>
+            <th scope="col">Universitas</th>
+            <th scope="col">Jurusan</th>
+            <th scope="col">Peminatan</th>
+            <th scope="col">CV</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Form data will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </section>
+
+    <script></script>
+    <script src="Bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="Js/table.js"></script>
+  </body>
+</html>

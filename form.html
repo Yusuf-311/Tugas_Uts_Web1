@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="container">
+            <a class="navbar-brand" href="#"> Bootstrap </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">Form</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="table.html">Data Mahasiswa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container vh-100 border p-0">
+      <div class="bg-primary p-5 mb-5">
+        <p class="bi bi-house-door text-light">> Form Pendaftaran</p>
+        <h1 class="text-light">Form Pendaftaran Magang Mahasiswa</h1>
+      </div>
+      <form action="" class="px-5">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label"
+            >Nama Lengkap</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="Nama"
+            placeholder="Nama Lengkap"
+          />
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="NIM" class="form-label">NIM</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nomor NIM"
+              aria-label="Nomor NIM"
+              id="NIM"
+            />
+          </div>
+          <div class="col">
+            <label for="Jenis Kelamin" class="form-label">Jenis Kelamin</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Jenis Kelamin"
+              aria-label="Jenis Kelamin"
+              id="Kelamin"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="NIM" class="form-label">Tempat Tanggal Lahir</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Tempat, DD-MM-YYYY"
+              aria-label="TTL"
+              id="TTL"
+            />
+          </div>
+          <div class="col">
+            <label for="Agama" class="form-label">Agama</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Agama"
+              aria-label="Agama"
+              id="Agama"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="NIM" class="form-label">Universitas</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Universitas"
+              aria-label="Universitas"
+              id="Universitas"
+            />
+          </div>
+          <div class="col">
+            <label for="Jurusan" class="form-label">Jurusan</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Jurusan"
+              aria-label="Jurusan"
+              id="Jurusan"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col">
+            <label for="NIM" class="form-label">Peminatan</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Peminatan"
+              aria-label="Peminatan"
+              id="Peminatan"
+            />
+          </div>
+          <div class="col">
+            <label for="Agama" class="form-label">CV</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="CV"
+              aria-label="CV"
+              id="CV"
+            />
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-primary w-50">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="Bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="Js/form.js"></script>
+
+    <script></script>
+  </body>
+</html>
